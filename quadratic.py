@@ -1,0 +1,10 @@
+from cmath import sqrt
+a=int(input("enter a :"))
+b=int(input("enter b :"))
+c=int(input("enter c :"))
+d=b**2-(4*(a*c))
+sr=sqrt(d)
+root1=(-b+sr)/(2*a)
+print("root1 :",root1)
+root2=(-b-sr)/(2*a)
+print("root2 :",root2)
